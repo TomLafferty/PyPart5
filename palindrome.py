@@ -6,12 +6,8 @@ def is_palindrome(value: str) -> bool:
         :return: A boolean
         """
     lowered = value.lower()
-    base = lowered.replace(" ","")
+    base = lowered.replace(" ", "")
     if base[::-1] == base:
         return True
     else:
         return False
-
-
-
-      # remove pass statement and implement me

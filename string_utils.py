@@ -1,11 +1,8 @@
-
 def str_len(str_in: str) -> int:
     """
         Given a string parameter, this function should return the length of the parameter.
         """
     return len(str_in)
-
-     # remove pass statement and implement me
 
 
 def first_char(str_in: str) -> str:
@@ -13,8 +10,6 @@ def first_char(str_in: str) -> str:
         Given a string parameter, this function should return the first letter of the parameter.
         """
     return str_in[0]
-
-    # remove pass statement and implement me
 
 
 def last_char(str_in: str) -> str:
@@ -24,8 +19,6 @@ def last_char(str_in: str) -> str:
     last = str_in[len(str_in) - 1]
     return last
 
-    # remove pass statement and implement me
-
 
 def input_has_substring(str_in: str, sub_str_in: str) -> bool:
     """
@@ -33,13 +26,6 @@ def input_has_substring(str_in: str, sub_str_in: str) -> bool:
         """
     result = sub_str_in in str_in
     return result
-
-    #if str_in.find(sub_str_in) == -1:
-    #    return False
-    #else:
-    #    return True
-
-   # remove pass statement and implement me
 
 
 def substring(str_in: str, start: int, stop: int) -> str:
@@ -54,8 +40,6 @@ def substring(str_in: str, start: int, stop: int) -> str:
     x = start
     y = stop + 1
     return str_in[x:y]
-
-     # remove pass statement and implement me
 
 
 def opposite_case(str_in: str) -> str:
@@ -73,5 +57,3 @@ def opposite_case(str_in: str) -> str:
         else:
             str_list.append(i)
     return ''.join(str_list)
-
-     # remove pass statement and implement me
