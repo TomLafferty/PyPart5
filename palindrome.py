@@ -11,3 +11,4 @@ def is_palindrome(value: str) -> bool:
         return True
     else:
         return False
+ # reverse it and compare

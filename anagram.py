@@ -6,3 +6,5 @@ def is_anagram(first_string: str, second_string: str) -> bool:
         return True
     else:
         return False
+
+print(is_anagram('fort', 'trof'))
